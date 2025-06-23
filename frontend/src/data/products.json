@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Kuromi",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 2,
+    "name": "Pompom",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 3,
+    "name": "Kuromi 2",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 4,
+    "name": "Hello kitty",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 5,
+    "name": "Cinna",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 6,
+    "name": "Kuromi xcinna",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 7,
+    "name": "Cinnabig",
+    "category": "Phone charm",
+    "price": 200
+  },
+  {
+    "id": 8,
+    "name": "Star",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 9,
+    "name": "Jelly",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 10,
+    "name": "Butterfly",
+    "category": "Phone charm",
+    "price": 180
+  },
+  {
+    "id": 11,
+    "name": "Capybara",
+    "category": "Keychains",
+    "price": 220
+  },
+  {
+    "id": 12,
+    "name": "Pompompurin",
+    "category": "Keychains",
+    "price": 260
+  },
+  {
+    "id": 13,
+    "name": "Cat",
+    "category": "Keychains",
+    "price": 320
+  },
+  {
+    "id": 14,
+    "name": "Frog",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 15,
+    "name": "Tata",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 16,
+    "name": "Miffy",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 17,
+    "name": "Piggy",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 18,
+    "name": "Strawberry piggy",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 19,
+    "name": "Duck",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 20,
+    "name": "Mini bouquet",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 21,
+    "name": "Teddy",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 22,
+    "name": "Turtle",
+    "category": "Keychains",
+    "price": 250
+  },
+  {
+    "id": 23,
+    "name": "Pink",
+    "category": "Bracelet",
+    "price": 200
+  },
+  {
+    "id": 24,
+    "name": "Blue",
+    "category": "Bracelet",
+    "price": 200
+  },
+  {
+    "id": 25,
+    "name": "Mix",
+    "category": "Bracelet",
+    "price": 180
+  },
+  {
+    "id": 26,
+    "name": "Neckchain",
+    "category": "Neckchain",
+    "price": 180
+  },
+  {
+    "id": 27,
+    "name": "Strawberry",
+    "category": "Bagcharm",
+    "price": 300
+  },
+  {
+    "id": 28,
+    "name": "Peach",
+    "category": "Bagcharm",
+    "price": 300
+  },
+  {
+    "id": 29,
+    "name": "Butterly",
+    "category": "Bagcharm",
+    "price": 300
+  },
+  {
+    "id": 30,
+    "name": "Jellyfish",
+    "category": "Bagcharm",
+    "price": 250
+  },
+  {
+    "id": 31,
+    "name": "Sunflower&rose",
+    "category": "Bouquet",
+    "price": 300
+  },
+  {
+    "id": 32,
+    "name": "Roses",
+    "category": "Bouquet",
+    "price": 350
+  },
+  {
+    "id": 33,
+    "name": "Blossom",
+    "category": "Bouquet",
+    "price": 320
+  },
+  {
+    "id": 34,
+    "name": "Pinkwhiterose",
+    "category": "Bouquet",
+    "price": 250
+  },
+  {
+    "id": 35,
+    "name": "Darkpink",
+    "category": "Bouquet",
+    "price": 100
+  },
+  {
+    "id": 36,
+    "name": "Blue",
+    "category": "Bouquet",
+    "price": 200
+  },
+  {
+    "id": 37,
+    "name": "Red",
+    "category": "Bouquet",
+    "price": 300
+  },
+  {
+    "id": 38,
+    "name": "Rose",
+    "category": "Bouquet",
+    "price": 150
+  }
+]

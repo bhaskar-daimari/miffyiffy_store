@@ -1,0 +1,75 @@
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+  background-color: #fff0f6;
+  padding: 5rem 5rem 5rem 5rem;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 7rem;
+  
+  padding-left: 5vw;
+  /* padding-right: 10vw; */
+}
+
+.about-logo {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  transform: translateY(-65px);
+}
+
+.about-text {
+  display: inline-block;
+  flex: 1;
+  /* padding-left: 6%; */
+  color: #333;
+  font-family: 'Georgia', cursive;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.atext{
+  padding-left: 20px;
+  width: 500px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
+
+.about-text div h2 {
+  font-family: "Georgia", serif;
+  font-size: 2rem;
+  color: #c94075;
+  margin-bottom: 1rem;
+}
+/* Add a keyframe for sliding in */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);  /* start slightly left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);       /* end at original position */
+  }
+}
+
+/* Apply to the about-text */
+.about-text {
+  animation: slideIn 1s ease-out forwards;
+  /* ... other styles from earlier ... */
+}
+

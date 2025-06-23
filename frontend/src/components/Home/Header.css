@@ -1,0 +1,73 @@
+
+header.container {
+  position: relative;
+  text-align: center;
+  padding: 5rem 1rem 5rem 1rem;
+  background-color: #fffdf4;
+  margin-top: 0;
+  overflow: visible;
+  z-index: 2;
+}
+
+header.container h1 {
+  font-size: 2.7rem;
+  font-family: "Georgia", serif;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+header.container p {
+  font-size: 2rem;
+  color: #c94075;
+  font-family: 'Courier New', cursive;
+  margin: 0.2rem;
+}
+
+/* Decorative image styling */
+.img {
+  position: absolute;
+  width: 180px;  /* reduced from 150px */
+  height: auto;
+  z-index: 0;
+  transition: transform 0.3s ease-in-out;
+  pointer-events: auto;
+  cursor: pointer;
+  animation: rotateImage 20s linear infinite;
+}
+
+.img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* Refined image positions */
+.top-left {
+  top: 0.5rem;
+  left: 2rem;
+}
+
+.top-right {
+  top: 0.5rem;
+  right: 2rem;
+}
+
+.middle-left {
+  top: 9rem;
+  left: 6rem;
+}
+
+.middle-right {
+  top: 9rem;
+  right: 5rem;
+}
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.img.rotate {
+  animation: rotateImage 8s linear infinite;
+}
+

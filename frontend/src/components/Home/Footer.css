@@ -1,0 +1,32 @@
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #fff0f5;
+  color: #333;
+  font-family: 'Georgia', serif;
+  border-top: 2px solid #f3c6d3;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  color: #c94075;
+  margin-bottom: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li:hover {
+  color: #a82e61;
+}

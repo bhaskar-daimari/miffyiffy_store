@@ -1,0 +1,63 @@
+
+.hero {
+  background-color: #fffdf4;
+  padding: 9rem 1rem 5rem 1rem;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hero-title {
+  color: #c94075;
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  margin-bottom: 6rem;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2.5rem;
+  color: #c94075;
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+}
+
+.slide {
+  opacity: 0.5;
+  transform: scale(0.95);
+  transition: all 0.6s ease-in-out;
+  text-align: center;
+}
+
+.slide img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.slide p {
+  margin-top: 0.7rem;
+  font-family: "Courier New", cursive;
+  font-size: 1.1rem;
+  color: #c94075;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1.25);
+}
