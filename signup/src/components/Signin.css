@@ -1,0 +1,25 @@
+.signin-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdf2f8 0%, #ffffff 50%, #fdf2f8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animated Background Elements */
+.background-elements {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-element {
+  position: absolute;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* .bg-element- */
